@@ -467,17 +467,17 @@ def WriteFullOTAPackage(input_zip, output_zip):
     script.FormatPartition("/data")
 
   script.Print("**********************************************");
-  script.Print("* ____                       _        _ _    *");
-  script.Print("*| __ )  ___  __ _ _ __  ___| |_ __ _| | | __*");
-  script.Print("*|  _ \ / _ \/ _` | '_ \/ __| __/ _` | | |/ /*");
-  script.Print("*| |_) |  __/ (_| | | | \__ \ || (_| | |   < *");
-  script.Print("*|____/ \___|\__,_|_| |_|___/\__\__,_|_|_|\_\*");
-  script.Print("*						   *");
+  script.Print("*       _            _        _ _            *");
+  script.Print("*      | |  _    ___| |_ __ _| | | __        *");
+  script.Print("*      | |/ /   / __| __/ _` | | |/ /        *");
+  script.Print("*      |   <    \__ \ || (_| | |   <         *");
+  script.Print("*      |_|\_\   |___/\__\__,_|_|_|\_\        *");
+  script.Print("*                                            *");
   script.Print("**********************************************");
 
   build = GetBuildProp("ro.build.date", OPTIONS.info_dict)
   script.Print("******************************************");
-  script.Print("************  BEANSTALK ROM  *************");
+  script.Print("************  KATSTALK ROM  *************");
   script.Print("******************************************");
   script.Print("*   Compiled: %s"%(build));
 
